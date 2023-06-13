@@ -1,0 +1,13 @@
+spring:
+   kafka:
+      bootstrap-servers: localhost:9092
+      consumer:
+         group-id: newer
+      producer:
+         properties:
+            max:
+               request:
+                  size: 304857600
+server:
+   port: 8002
+   
